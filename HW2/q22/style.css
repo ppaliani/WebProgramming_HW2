@@ -1,0 +1,162 @@
+body {
+    background-color: rgba(94, 163, 224, 0.507);
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+
+#large-container {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    margin-bottom: 200px;
+}
+
+#heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+#heading {
+    margin-top: 15px;
+    position: relative;
+    font-size: xx-large;
+    border-bottom: #000 3px solid;
+}
+
+#upper-container {
+    display: inline;
+}
+
+#quote-container {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+#quote {
+    text-align: center;
+    border: #000 solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#time-container {
+    position: relative;
+    text-align: center;
+    border: #000 solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: auto;
+    max-width: 400px;
+    padding: 10px;
+}
+
+#time-container p {
+    margin: 0px;
+}
+
+#shopping-set {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+#entertainment-set {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+#headshot {
+    max-width: 400px;
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#social-set {
+    position: absolute;
+    right: 10%;
+    top: 45%;
+}
+
+#education-set {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+table {
+    position: relative;
+    width: 200px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    color: #000;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+.top-table:nth-child(odd) {
+    background-color: rgba(84, 175, 198, 0.636);
+}
+
+.top-table:nth-child(even) {
+    background-color: rgba(101, 207, 233, 0.636);
+}
+
+.left-table:nth-child(odd) {
+    background-color: rgba(202, 2, 2, 0.733);
+}
+
+.left-table:nth-child(even) {
+    background-color: rgba(210, 62, 62, 0.733);
+}
+
+.right-table:nth-child(odd) {
+    background-color: rgba(246, 246, 12, 0.833);
+}
+
+.right-table:nth-child(even) {
+    background-color: rgba(255, 255, 63, 0.841);
+}
+
+.bottom-table:nth-child(odd) {
+    background-color: rgba(61, 199, 11, 0.733);
+}
+
+.bottom-table:nth-child(even) {
+    background-color: rgba(98, 205, 59, 0.733);
+}

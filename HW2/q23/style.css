@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(10, 10, 35);
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+#game-board {
+    min-width: 400px;
+    height: 400px;
+    border: solid white 5px;
+    padding: 5px;
+    display: inline;
+}
+
+#green {
+    position: relative;
+    background-color: rgb(136, 226, 0);
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+#red {
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+#controls {
+    display: flex;
+    max-width: 50vw;
+}
+
+.buttons {
+    margin: 5px;
+}

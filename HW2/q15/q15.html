@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q15</title>
+</head>
+<body>
+    <div>
+        <h1>Compound Interest Calculator</h1>
+        <div id="container">
+            <div class="input-boxes">
+                <h2>Initial Amount: </h2><input type="text" id="initial" placeholder="Initial Amount">  <!--textboxes-->
+            </div>
+            <div class="input-boxes">
+                <h2>Interest Rate: </h2><input type="text" id="interest" placeholder="Interest Rate">
+            </div>
+            <div class="input-boxes">
+                <h2>Years to Compound: </h2><input type="text" id="years" placeholder="Number of Years">
+            </div>
+            <button type="submit" onclick="compoundInterest()"><h3>Calculate</h3></button>      <!--submit button-->
+            <h2 id="output">Amount After Interest:</h2>     <!--output display-->
+        </div>   
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

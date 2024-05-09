@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Q19</title>
+    <style>
+        body {
+            background-color: rgb(211, 240, 255);
+            font-family: "Poppins";
+        }
+
+        #heading-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .even-section {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        a > img {
+            width: 250px;
+            height: 150px;
+        }
+
+        figcaption {
+            font-size: 24px;
+        }
+
+        h1 {
+            margin-left: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="heading-container">
+        <h1>
+            Various Laptop Reviews
+        </h1>
+    </div>
+    <hr>
+    <div class="section-container" id="section-1">
+        <h1 id="heading1" class="headings" onmouseover="myFunction2(1)" onmouseleave="myFunction2(5)">Laptop 1</h1>
+        <!--on hover, changes font size-->
+        <figure>
+            <a href="https://rb.gy/jjsf7" target="_blank">
+                <img id="img1" class="images" onmouseover="imgFunction(1)" onmouseleave="imgFunction(5)" src="Assets/macbook.jpg"></a>
+                <!--on hover, changes border-->ss
+            <figcaption><strong>Apple 2023 Macbook</strong></figcaption>
+            <p id="p1" class="paragraph" onmouseover="myFunction(1)" onmouseleave="myFunction(5)"> 
+                <!--on hover, changes background color and font fam-->
+                When it comes to laptops that combine form and function, the 2023 MacBook Air reigns supreme.
+                Apple has continued its legacy of innovation, bringing to life a device that sets new standards in performance,
+                portability, and sustainability. With an array of cutting-edge features,
+                the 2023 MacBook Air is not just a laptop; it's an embodiment of progress and a true testament to what technology can achieve.
+            </p>
+        </figure>
+    </div>
+    <hr>
+    <div class="section-container" id="section-2">
+        <h1 id="heading2" class="headings" onmouseover="myFunction2(2)" onmouseleave="myFunction2(6)">Laptop 2</h1>
+        <figure>
+            <a href="https://rb.gy/n3cyq" target="_blank" class="even-section">
+                <img id="img2" class="images" onmouseover="imgFunction(2)" onmouseleave="imgFunction(6)" src="Assets/surface_pro.png"></a>
+            <figcaption><strong>Microsoft Surface Laptop 5</strong></figcaption>
+            <p id="p2" class="paragraph" onmouseover="myFunction(2)" onmouseleave="myFunction(6)">
+                In a world where performance meets style, the Microsoft Surface Laptop 5 emerges as a true embodiment
+                of excellence. This laptop redefines the boundaries of computing, seamlessly blending powerful performance
+                with timeless elegance and unmatched productivity. Whether you're a professional in pursuit of efficiency,
+                a creative visionary bringing your ideas to life, or a student aiming for academic excellence,
+                the Surface Laptop 5 is your passport to a world of limitless possibilities.
+            </p>
+        </figure>
+    </div>
+    <hr>
+    <div class="section-container" id="section-3">
+        <h1 id="heading3" class="headings" onmouseover="myFunction2(3)" onmouseleave="myFunction2(7)">Laptop 3</h1>
+        <figure>
+            <a href="https://rb.gy/gdd8v" target="_blank">
+                <img id="img3" class="images" onmouseover="imgFunction(3)" onmouseleave="imgFunction(7)" src="Assets/alienware.png"></a>
+            <figcaption><strong>Alienware X16 R1</strong></figcaption>
+            <p id="p3" class="paragraph" onmouseover="myFunction(3)" onmouseleave="myFunction(7)">
+                Prepare to be blown away by the Alienware X16 R1 gaming laptop, where power, innovation,
+                and unrivaled immersion converge to redefine your gaming experience. Crafted by gamers, for gamers,
+                this cutting-edge machine represents the zenith of gaming excellence. With relentless performance,
+                stunning visuals, and a design that exudes futuristic aesthetics, the Alienware X16 R1 is the ultimate
+                gaming companion you've been waiting for.
+            </p>
+        </figure>
+    </div>
+    <hr>
+    <div class="section-container" id="section-4">
+        <h1 id="heading4" class="headings" onmouseover="myFunction2(4)" onmouseleave="myFunction2(8)">Laptop 4</h1>
+        <figure>
+            <a href="https://rb.gy/cq15e" target="_blank" class="even-section">
+                <img id="img4" class="images" onmouseover="imgFunction(4)" onmouseleave="imgFunction(8)" src="Assets/inspiron.png"></a>
+            <figcaption><strong>Dell Inspiron</strong></figcaption>
+            <p  id="p4" class="paragraph" onmouseover="myFunction(4)" onmouseleave="myFunction(8)">
+                In the dynamic world of modern computing, the Dell Inspiron Series stands tall as the epitome of
+                versatility, reliability, and all-around excellence. This laptop lineup is thoughtfully designed to
+                cater to a diverse spectrum of needs, delivering a harmonious blend of performance, affordability,
+                and dependable features. Whether you're a diligent student, a seasoned professional, or simply in search
+                of a reliable companion for your daily digital journey, the Dell Inspiron Series is poised to exceed your
+                expectations in every way.
+            </p>
+        </figure>
+    </div>
+
+
+</body>
+</html>

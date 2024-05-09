@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Q17</title>
+</head>
+<body>
+    <div id="heading-container">
+        <h1 id="heading">ID and Password Generator</h1>
+    </div>
+    <div id="large-container">
+        <input type="text" maxlength="10" id="fname" placeholder="First Name">      <!--maxlengths are 10-->
+        <input type="text" maxlength="10" id="lname" placeholder="Last Name">       <!--all use placeholders instead of labels-->
+        <input type="text" id="phone" placeholder="Phone (xxx-xxx-xxxx)"><br>
+    </div>
+    <div id="error-container">
+        <h3 id="error-msg"></h3>        <!--displays error messages-->
+    </div>
+    <div id="submit-container">
+        <button type="submit" id="submit-btn" onclick="createIdPassword()">Submit</button>  <!--submit button-->
+    </div>
+    <div id="output-container">
+        <strong><p id="output"></p></strong>        <!--displays output-->
+    </div>
+
+</body>
+</html>

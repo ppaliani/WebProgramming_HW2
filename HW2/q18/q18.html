@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Q18</title>
+</head>
+<body>
+    <div id="heading-container">
+        <h1 id="heading">ID and Password Generator</h1>
+    </div>
+    <div id="large-container">
+        <div id="fname-container">
+            <input type="text" maxlength="10" id="fname" placeholder="First Name" onblur="createIdPassword()"
+            onchange="createIdPassword()" onmouseover="showFname(1)" onmouseout="showFname(2)">
+                        <!--used onblur and onchange so function calls when user clicks out, focuses out, or enter out-->
+            <label id="fname-lbl"></label>      <!--each textbox uses a label-->
+        </div>
+        <div id="lname-container">
+            <input type="text" maxlength="10" id="lname" placeholder="Last Name" onblur="createIdPassword()"
+            onchange="createIdPassword()" onmouseover="showLname(1)" onmouseout="showLname(2)">
+
+            <label id="lname-lbl"></label>
+        </div>
+        <div id="phone-container">
+            <input type="text" id="phone" placeholder="Phone" onblur="createIdPassword()"
+            onchange="createIdPassword()" onmouseover="showPhone(1)" onmouseout="showPhone(2)">
+
+            <label id="phone-lbl"></label>
+        </div>
+    </div>
+    <div id="error-container">
+        <h3 id="error-msg"></h3>
+    </div>
+    <div id="output-container">
+        <strong><p id="output"></p></strong>
+    </div>
+
+</body>
+</html>

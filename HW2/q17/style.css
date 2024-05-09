@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(80, 169, 95);
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+input:focus {
+    background-color: #ffffffe4;
+}
+
+#heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+#heading {
+    color: rgb(255, 255, 255);
+}
+
+#large-container, #submit-container, #output-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-container {
+    margin: 30px;
+}
+
+#error-container {
+    position: fixed;
+    top: 0px;
+    right: 150px;
+}
+
+#error-msg {
+    margin-top: 13px;
+    border-radius: 5px;
+    padding: 5px;
+    color: red;
+}
+
+#submit-btn {
+    background-color: green;
+    border: 3px rgb(2, 91, 2) solid;
+    padding: 10px 40px;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 145px;
+    transition: width 0.1s;
+}
+
+#submit-btn:hover {
+    background-color: rgb(2, 91, 2);
+    cursor: pointer;
+    width: 160px;
+}

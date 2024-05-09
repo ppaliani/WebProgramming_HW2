@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q16</title>
+</head>
+<body>
+    <div id="large-container">
+        <div id="inner-container">
+            <h1 align="center">University Cost Calculator</h1>
+
+            <input type="text" placeholder="Credits" id="credits">      <!--credits textbox-->
+            <div class="center" id="grad_status">
+                <input type="radio" name="grad_status" value="Undergraduate" id="undergrad" checked="checked"><p>Undergraduate</p>
+                <input type="radio" name="grad_status" value="Graduate" id="grad"><p>Graduate</p>
+            </div>
+            <div class="center" id="state_status">
+                <input type="radio" name="state_status" value="In State" id="in-state" checked="checked"><p>In State</p>
+                <input type="radio" name="state_status" value="Out of State" id="out-state"><p>Out of State</p>
+            </div>
+            <div class="center" id="options">
+                <input type="checkbox" name="option" value="1" id="dorm"><p>Dorm</p>
+                <input type="checkbox" name="option" value="2" id="dining"><p>Dining</p>
+                <input type="checkbox" name="option" value="3" id="parking"><p>Parking</p>
+            </div>
+            <button type="submit" onclick="calculate()" id="btn">Calculate Cost</button>        <!--submit button-->
+
+            <h1 id="output" align="center">Total Cost For University: </h1>     <!--displays output-->
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
